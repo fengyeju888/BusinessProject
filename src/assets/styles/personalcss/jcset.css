@@ -1,0 +1,293 @@
+@charset "UTF-8";
+.act-back {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  color: #333;
+  font-size: 14px;
+  padding: 5px 0px;
+}
+
+.act-back .fhhhh {
+  float: left;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.act-back .icon {
+  font-size: 22px;
+  margin-right: 5px;
+}
+
+.pandect {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.pandect .pand-left {
+  float: left;
+  width: 200px;
+  height: 760px;
+  background: #fff;
+  position: relative;
+}
+
+.pandect .pand-left .ztt {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+}
+
+.pandect .pand-left .pand-nav {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.pandect .pand-left .pand-nav .pandnav-fj {
+  width: 100%;
+  height: auto;
+  position: relative;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.pandect .pand-left .pand-nav .pandnav-fj a {
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  color: #333;
+  text-align: center;
+  font-size: 16px;
+}
+
+.pandect .pand-left .pand-nav .pandnav-fj .icon {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 20px;
+  color: #333;
+  transition: 0.3s all ease;
+  cursor: pointer;
+}
+
+.pandect .pand-left .pand-nav .pandnav-fj .padnav-ej {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.pandect .pand-left .pand-nav .pandnav-fj .padnav-ej a {
+  background: #e8e8e8;
+  border: none;
+  color: #333;
+}
+
+.pandect .pand-left .pand-nav .pandnav-fj .padnav-ej .sj-ul {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  display: none;
+}
+
+.pandect .pand-left .pand-nav .pandnav-fj .padnav-ej .sj-ul .sj-li {
+  width: 100%;
+  height: 44px;
+  line-height: 44px;
+}
+
+.pandect .pand-left .pand-nav .pandnav-fj .padnav-ej .sj-ul .sj-li a {
+  padding-left: 50px;
+  font-size: 14px;
+  background: #100854;
+}
+
+.pandect .pand-left .pand-nav .pandnav-fj .padnav-ej:last-child {
+  border: none;
+}
+
+.pandect .pand-left .pand-nav .pandnav-fj .ej-ul {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  display: none;
+}
+
+.pandect .pand-left .pand-nav .pandnav-fj .iconfj {
+  color: #d0d0d1;
+}
+
+.pandect .pand-left .pand-nav .fjon {
+  background: #d5e0fe;
+  height: auto;
+}
+
+.pandect .pand-left .pand-nav .fjon a {
+  color: #486dd4;
+  border-left: 4px solid #8aa8f9;
+  border-right: 4px solid #d5e0fe;
+}
+
+.pandect .pand-left .pand-nav .fjon .iconfj {
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  /* IE 9 */
+  -moz-transform: rotate(90deg);
+  /* Firefox */
+  -webkit-transform: rotate(90deg);
+  /* Safari 和 Chrome */
+  -o-transform: rotate(90deg);
+  transition: 0.3s all ease;
+  color: #486dd4;
+}
+
+.pandect .pand-left .pand-nav .fjon .padnav-ej {
+  position: relative;
+}
+
+.pandect .pand-left .pand-nav .fjon .ej-ul {
+  display: block;
+}
+
+.pandect .pand-left .pand-nav .fjon .ejon .ej-a {
+  background: #d5e0fe;
+  color: #486dd4;
+  border-left: 4px solid #8aa8f9;
+  border-right: 4px solid #d5e0fe;
+}
+
+.pandect .pand-left .pand-nav .fjon .ejon .iconej {
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  /* IE 9 */
+  -moz-transform: rotate(90deg);
+  /* Firefox */
+  -webkit-transform: rotate(90deg);
+  /* Safari 和 Chrome */
+  -o-transform: rotate(90deg);
+  transition: 0.3s all ease;
+}
+
+.pandect .pand-left .pand-nav .fjon .ejon .sj-a {
+  color: #fb6e10;
+}
+
+.pandect .pand-left .pand-nav .fjon .ejon .sj-ul {
+  display: block;
+}
+
+.pandect .pand-left .pand-nav .pandnav-fj:hover {
+  background: #d5e0fe;
+}
+
+.pandect .pand-left .pand-nav .pandnav-fj:hover .fj-a {
+  color: #486dd4;
+}
+
+.pandect .pand-left .pand-nav .pandnav-fj:hover .iconfj {
+  color: #486dd4;
+}
+
+.pandect .pand-right {
+  width: 1000px;
+  height: 760px;
+  overflow: hidden;
+  float: left;
+}
+
+.fpxx2 .home-pop {
+  width: 600px;
+  height: 400px;
+  background: #fff;
+  position: fixed;
+  z-index: 101;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.fpxx2 .home-pop h2 {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+  padding: 20px 0px;
+  font-size: 18px;
+  background: #5679e1;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.fpxx2 .home-pop .pop-gb {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  font-size: 22px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.fpxx2 .home-pop .pop-text {
+  padding: 40px;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.fpxx2 .home-pop .pop-text .mmset {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  font-size: 14px;
+  color: #333;
+  line-height: 33px;
+  margin-bottom: 10px;
+}
+
+.fpxx2 .home-pop .pop-text .mmset .padset-left {
+  width: 130px;
+  height: auto;
+  overflow: hidden;
+  float: left;
+  text-align: right;
+  padding-right: 5px;
+}
+
+.fpxx2 .home-pop .pop-text .mmset .padset-right {
+  width: 320px;
+  float: left;
+  height: auto;
+  overflow: hidden;
+}
+
+.fpxx2 .home-pop .pop-text .mmset .padset-right input {
+  width: 310px;
+  height: 33px;
+  border-radius: 5px;
+  border: 1px solid #d6d6d9;
+  padding: 0px 10px;
+  box-sizing: border-box;
+}
+
+.fpxx2 .home-pop .pop-text .mmset button {
+  margin-top: 10px;
+  width: 136px;
+  height: 44px;
+  border-radius: 5px;
+  border: 1px solid #fe7c63;
+  background: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.fpxx2 .home-pop .pop-text .mmset .bott-qd {
+  color: #fff;
+  background: #fe7c63;
+}

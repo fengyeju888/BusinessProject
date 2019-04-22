@@ -1,0 +1,232 @@
+<template>
+  <div class="MainContain">
+    <div class="NameList">
+      <div class="NameLeft">
+        <label style="font-size:18px;color:#b6b6b6">活动名称：</label>
+        <span style="font-size:18px;color:#f68058;font-weight:bolder;">暖春活动暖春活动</span>
+      </div>
+      <div class="NameRight">
+        <div style="display:inline-block;">
+          <label style="font-size:18px">搜索：</label><input class="Search" type="text" placeholder="请输入昵称或者联系电话">
+        </div>   
+        <button  class="ExportName">导出名单</button>
+         <button class="ExportName">刷新</button>
+      </div>
+      <!-- 表格部分 -->
+    </div>
+     <div class="TableList">
+     <template>
+  <el-table
+    :data="tableData"
+    border
+    style="width: 100%">
+    <el-table-column
+      prop="date"
+      label="昵称"
+      width="180">
+    </el-table-column>
+    <el-table-column
+      prop="name"
+      label="头像"
+      width="180">
+    </el-table-column>
+    <el-table-column
+      prop="address"
+      label="真实姓名">
+    </el-table-column>
+      <el-table-column
+      prop="address"
+      label="真实姓名">
+    </el-table-column>
+      <el-table-column
+      prop="address"
+      label="真实姓名">
+    </el-table-column>
+  </el-table>
+</template>
+
+     </div>
+      <div id="demo3" style="float:right;margin-right:8px;  margin-right: 28px;margin-top:10px;box-sizing:border-box"></div>
+  </div>
+</template>
+<style scoped>
+.MainContain {
+  width: 1000px;
+  height: 800px;
+  background: #fff;
+}
+.NameList {
+  width: 100%;
+  height: 78px;
+  line-height:78px;
+  padding:0 15px;
+  box-sizing: border-box;
+}
+.NameLeft{
+  float:left;
+}
+.NameRight{
+  float:right;
+}
+.Search{
+  width:242px;
+  height:35px;
+  border-radius: 5px;
+  padding-left:10px;
+  box-sizing: border-box;
+  border:1px solid #d4d4d4;
+}
+.ExportName{
+  width:121px;
+  height:37px;
+  background:#fe7c64;
+  color:#fff;
+  border-radius: 10px;
+}
+button:nth-of-type(1){
+  margin:0 5px;
+}
+.TableList{
+  width:940px;
+  height:612px;
+  margin:10px auto;
+ 
+}
+</style>
+<style>
+.el-table__header {
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+.el-table__header tr,
+  .el-table__header th {
+    width:180px;
+    padding: 0;
+    height: 45px;
+    background:#f4f4f4;
+}
+.el-table__body tr,
+  .el-table__body td {
+    padding: 0;
+    height: 30px;
+    background:#fff;
+}
+.el-table .cell {
+    line-height: 15px!important; 
+}
+.el-table td, .el-table th {
+    padding: 3px 0;
+    text-align: center!important;
+}
+.layui-table-view .layui-table td, .layui-table-view .layui-table th {
+    padding: 1px 0;
+    border-top: none;
+    border-left: none;
+}
+.layui-laypage-next > em {
+  font-size: 13px !important;
+}
+.layui-laypage {
+
+    float: right;
+}
+
+</style>
+<script>
+export default{
+ data(){
+   return{
+      tableData: [{
+          date: '2016-05-02',
+          name: '王小虎',
+          address: '上海市普陀区金沙江路 1518 弄'
+        }, {
+          date: '2016-05-04',
+          name: '王小虎',
+          address: '上海市普陀区金沙江路 1517 弄'
+        }, {
+          date: '2016-05-01',
+          name: '王小虎',
+          address: '上海市普陀区金沙江路 1519 弄'
+        }, 
+        {
+          date: '2016-05-03',
+          name: '王小虎',
+          address: '上海市普陀区金沙江路 1516 弄'
+        },
+        {
+          date: '2016-05-03',
+          name: '王小虎',
+          address: '上海市普陀区金沙江路 1516 弄'
+        },
+        {
+          date: '2016-05-03',
+          name: '王小虎',
+          address: '上海市普陀区金沙江路 1516 弄'
+        },
+        {
+          date: '2016-05-03',
+          name: '王小虎',
+          address: '上海市普陀区金沙江路 1516 弄'
+        },
+        {
+          date: '2016-05-03',
+          name: '王小虎',
+          address: '上海市普陀区金沙江路 1516 弄'
+        },
+        {
+          date: '2016-05-03',
+          name: '王小虎',
+          address: '上海市普陀区金沙江路 1516 弄'
+        },
+          {
+          date: '2016-05-03',
+          name: '王小虎',
+          address: '上海市普陀区金沙江路 1516 弄'
+        },
+          {
+          date: '2016-05-03',
+          name: '王小虎',
+          address: '上海市普陀区金沙江路 1516 弄'
+        },
+          {
+          date: '2016-05-03',
+          name: '王小虎',
+          address: '上海市普陀区金沙江路 1516 弄'
+        },
+          {
+          date: '2016-05-03',
+          name: '王小虎',
+          address: '上海市普陀区金沙江路 1516 弄'
+        },
+          {
+          date: '2016-05-03',
+          name: '王小虎',
+          address: '上海市普陀区金沙江路 1516 弄'
+        },
+          {
+          date: '2016-05-03',
+          name: '王小虎',
+          address: '上海市普陀区金沙江路 1516 弄'
+        }
+        ]
+   }
+ },
+ mounted(){
+   layui.use(['table',"laypage"], function(){
+  var table = layui.table;
+  var laypage = layui.laypage;
+      laypage.render({
+        elem: "demo3",
+        count: 100,
+        prev:false,
+        first: "首页",
+        last: "尾页",
+        next: "<em>下一页</em>"
+      });
+});
+ }
+  
+}
+
+</script>
